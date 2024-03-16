@@ -1,0 +1,1 @@
+import csvpath ='/Users/andrewgiannettino/Documents/Python/python-challenge/PyBank/Resources/budget_data.csv'total_months=[]with open(path) as csvfile:    csvreader = csv.reader(csvfile, delimiter=",")    for row in csvreader:        totalmonths = len(csvfile.readlines())        print("Total Months:", totalmonths)                                    
