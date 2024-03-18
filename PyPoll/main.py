@@ -1,0 +1,1 @@
+import csv path = '/Users/andrewgiannettino/Documents/Python/python-challenge/PyPoll/Resources/election_data.csv'with open(path) as csvfile:    csvreader=csv.reader(csvfile, delimiter=',')    
